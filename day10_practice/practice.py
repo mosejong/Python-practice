@@ -17,7 +17,7 @@ print(statistics.mode(data))
 np.random.seed(1000)
 front = 0
 def random_answer():
-    return np.random.choice(["앞","뒤"])
+    return np.random.choice(["앞","뒤"]) 
 for i in range(10000):
     a = random_answer()
     if a == "앞":
