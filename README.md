@@ -42,17 +42,21 @@ AI Human 교육 과정을 기반으로, 매일 학습한 내용과 복습 코드
 | Day11 | 머신러닝 입문      |
 | Day12 | 데이터 분석       |
 | Day13 | 클러스터링 / PCA  |
+| Day14 | Decision Tree / Ensemble |
 
 ---
 
 ## 🔥 Recent
 
-**Day13**
+**Day14**
 
-* KMeans 클러스터링 실습
-* Elbow Method로 k값 판단
-* PCA(차원축소) 개념 이해
-* PCA + KMeans 연결 실습
+* Decision Tree 개념 이해 (과적합 발생 가능)
+* Bagging (Bootstrap 기반 앙상블) 학습
+* Random Forest 구조 이해 (Bagging + feature 랜덤 선택)
+* Boosting 개념 이해 (오답 보완, 순차 학습)
+* Decision Tree vs Bagging vs Random Forest 성능 비교 실습
+* AutoML 개념 학습 (LazyPredict, Scikit-Optimize)
+
 
 ---
 
@@ -72,6 +76,7 @@ Python-to-ML/
 ├── day11_ml/
 ├── day12/
 ├── day13_ml/
+├── day14_ml/
 └── README.md
 ```
 

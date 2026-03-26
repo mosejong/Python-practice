@@ -31,6 +31,19 @@
 * 이전 모델이 틀린 데이터에 집중하여 순차적으로 학습
 * 성능을 점진적으로 개선하는 방식
 
+#### 6. 추가 개념
+
+- Voting: 여러 모델의 예측을 결합 (Hard/Soft Voting)
+- Bootstrap: 복원추출을 통해 데이터 샘플 생성 (Bagging의 핵심)
+- Boosting 계열 모델: AdaBoost, Gradient Boosting, XGBoost, LGBM, CatBoost
+
+#### 7. AutoML
+- 모델 선택, 학습, 평가 과정을 자동화하는 기법
+- 다양한 모델을 빠르게 비교하여 최적의 모델을 찾을 수 있음
+- 대표 도구
+  - LazyPredict: 여러 모델을 한 번에 비교
+  - Scikit-Optimize: 하이퍼파라미터 자동 튜닝
+
 ---
 
 ### 💡 Insight
@@ -39,6 +52,7 @@
 * Bagging과 Random Forest를 통해 모델의 안정성을 확보할 수 있음
 * Boosting은 단순 반복 학습이 아니라 “오답 보완”이라는 점이 핵심
 * 쉬운 데이터셋(iris)의 경우 모델 간 성능 차이가 크게 나타나지 않을 수 있음
+* AutoML을 활용하면 다양한 모델을 빠르게 비교할 수 있어 초기 모델 선택에 유용함
 
 ---
 
