@@ -1,14 +1,14 @@
 # Python-to-ML
 
-Python 기초부터 머신러닝까지 학습 과정을 기록하는 저장소입니다.
+Python 기초부터 머신러닝, 딥러닝까지 학습 과정을 기록하는 저장소입니다.  
 AI Human 교육 과정을 기반으로, 매일 학습한 내용과 복습 코드를 정리하고 있습니다.
 
 ---
 
 ## 📌 About
 
-이 저장소는 단순 코드 저장이 아니라
-**학습 흐름 (Python → ML)** 을 기록하는 것을 목표로 합니다.
+이 저장소는 단순 코드 저장이 아니라  
+**학습 흐름 (Python → ML → DL)** 을 기록하는 것을 목표로 합니다.
 
 * 직접 작성한 코드 중심
 * 복습 기반 학습 기록
@@ -22,6 +22,7 @@ AI Human 교육 과정을 기반으로, 매일 학습한 내용과 복습 코드
 * NumPy
 * Pandas
 * Scikit-learn
+* TensorFlow / Keras
 * Git / GitHub
 
 ---
@@ -43,19 +44,34 @@ AI Human 교육 과정을 기반으로, 매일 학습한 내용과 복습 코드
 | Day12 | 데이터 분석       |
 | Day13 | 클러스터링 / PCA  |
 | Day14 | Decision Tree / Ensemble |
+| Day15 | Deep Learning 기초 / Perceptron |
+| Day16 | TensorFlow와 MLP 기초 학습 |
+| Day17 | 딥러닝 개념과 CNN 기초 학습 |
 
 ---
 
 ## 🔥 Recent
 
-**Day14**
+**Day16**
 
-* Decision Tree 개념 이해 (과적합 발생 가능)
-* Bagging (Bootstrap 기반 앙상블) 학습
-* Random Forest 구조 이해 (Bagging + feature 랜덤 선택)
-* Boosting 개념 이해 (오답 보완, 순차 학습)
-* Decision Tree vs Bagging vs Random Forest 성능 비교 실습
-* AutoML 개념 학습 (LazyPredict, Scikit-Optimize)
+* TensorFlow와 MLP 기초 학습
+* 다층 퍼셉트론(MLP) 구조 이해
+* 입력층, 은닉층, 출력층 개념 정리
+* softmax를 활용한 다중 분류 출력층 확인
+* 모델 결과 비교를 통해 앙상블 방식 감각 익히기
+* 여러 제출 결과를 비교하며 성능 차이 확인
+* 결과 분석을 통해 개선 방향을 생각하는 과정 경험
+
+
+**Day17**
+
+* 딥러닝 주요 개념 정리
+* CNN 기초 개념 학습
+* LSTM, GAN, Transformer 등 대표 모델 흐름 이해
+* 문자 데이터를 숫자로 변환하는 전처리 필요성 확인
+* 모델 학습 전 데이터 전처리의 중요성 이해
+* 디버깅을 한 줄씩 보는 방식과 큰 흐름으로 보는 방식 비교
+* 환경설정, 입력 데이터, 코드 흐름 순으로 점검하는 습관 정리
 
 
 ---
@@ -77,8 +93,10 @@ Python-to-ML/
 ├── day12/
 ├── day13_ml/
 ├── day14_ml/
+├── day15_dl/
+├── day16_dl/
+├── day17_dl_cnn/
 └── README.md
-```
 
 ---
 
